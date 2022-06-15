@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Importing Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Importing our CSS stylesheet -->
+    <link rel="stylesheet" href="static/css/style.css">
+    <!-- Setting the title -->
+    <title>Pokemon Rock-Paper-Scissors Game!</title> 
+    <title>Document</title>
+</head>
+<body>
+    <div class="title-container">
+        <h2>Pok&eacutemon Rock Paper Scissors Game!</h2>
+    </div>
+
+    <!-- Div to space out the content -->
+    <div class="divider"></div>
+
+    <div class="main-container" id="main-container-div">
+        <h3 id="main-container-title">Choose your Pok&eacutemon...</h3>
+        <!-- Container that will hold the Pokemon images -->
+        <div class="flex-box-pokemon-container">
+            <div class="squirtle-sprite">
+                <img id="squirtle" src="static/images/squirtle_sprite.png" height=300 width=300 onclick="rpsGame(this)">
+            </div>
+            <!-- Div to space out content to the right -->
+            <div class="divider-right" id="divider-right-1"></div>
+            <div class="charmander-sprite">
+                <img id="charmander" src="static/images/charmander_sprite.png" height=300 width=300 onclick="rpsGame(this)">
+            </div>
+            <!-- Div to space out content to the right -->
+            <div class="divider-right" id="divider-right-2"></div>
+            <div class="bulbasaur-sprite">
+                <img id="bulbasaur" src="static/images/bulbasaur_sprite.png" height=300 width=300 onclick="rpsGame(this)">
+            </div>
+        </div>
+    </div>
+
+    <!-- Div to space out the content -->
+    <div class="divider"></div>
+
+    <!-- Container that will display the results -->
+    <div class="results-container" id="results-container-div">
+        <h3>Results: </h3>
+    </div>
+
+    <!-- Div to space out the content -->
+    <div class="divider"></div>
+
+    <!-- Creating our statistics table -->
+    <div class="statistics-table">
+        <table>
+            <tr>
+                <th>Wins</th>
+                <th>Losses</th>
+                <th>Draws</th>
+            </tr>
+            <tr>
+                <td><span id="win-count">0</span></td>
+                <td><span id="loss-count">0</span></td>
+                <td><span id="draw-count">0</span></td>
+            </tr>
+        </table>
+    </div>
+    
+    <!-- Importing our JS Script -->
+    <script src="static/js/script.js"></script>
+</body>
+</html>

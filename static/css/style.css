@@ -1,0 +1,100 @@
+body {
+    padding-top: 50px;
+    background-color: lightsteelblue;
+    background-image: url('https://i.pinimg.com/originals/46/dc/6a/46dc6aba55acce24953bbc1b09bd674c.png');
+}
+
+/* Dividers to space out our content */
+.divider {
+    padding-top: 50px;
+}
+
+.divider-right {
+    padding-right: 50px;
+}
+
+
+/* Styling our title container */
+.title-container {
+    border: 5px solid black;
+    margin: 0 auto;
+    text-align: center;
+    width: 75%;
+    background-color: lightsteelblue;
+}
+
+/* Styling our main container */
+.main-container {
+    border: 5px solid black;
+    margin: 0 auto;
+    text-align: center;
+    width: 75%;
+    background-color: lightgray;
+}
+
+/* Styling our results container */
+.results-container {
+    border: 5px solid black;
+    margin: 0 auto;
+    text-align: center;
+    width: 75%;
+    background-color: lightgray;
+}
+
+/* Styling our Pokemon selection container */ 
+.flex-box-pokemon-container {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+}
+
+div {
+    justify-content: space-around;
+    display: flex;
+}
+
+.squirtle-sprite img:hover{
+    border: 5px solid black;
+    box-shadow: 0px 10px 50px rgba(0, 0, 255);
+    border-radius: 50%;
+    background-color: cyan;
+}
+
+.charmander-sprite img:hover{
+    border: 5px solid black;
+    box-shadow: 0px 10px 50px rgba(255, 0, 0);
+    border-radius: 50%;
+    background-color: red;
+}
+
+.bulbasaur-sprite img:hover {
+    border: 5px solid black;
+    box-shadow: 0px 10px 50px rgba(0, 128, 0);
+    border-radius: 50%;
+    background-color: lime;
+}
+
+/* Styling our statistics table */
+.statistics-table {
+    text-align: center;
+    margin: 0 auto;
+    width: 75%;
+}
+
+table, th {
+    width: 500px;
+    height: 55px;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 0 auto;
+    background-color: lightseagreen;
+}
+
+td {
+    height: 55px;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 0 auto;
+    background-color: lightskyblue;
+}
